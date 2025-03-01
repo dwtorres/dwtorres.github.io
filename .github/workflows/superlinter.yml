@@ -28,8 +28,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
           VALIDATE_CHECKOV: false
+          VALIDATE_HTML_PRETTIER: true
+          VALIDATE_CSS_PRETTIER: true
           FIX_MARKDOWN_PRETTIER: true
           FIX_JAVASCRIPT_PRETTIER: true
+          FIX_JSON_PRETTIER: true
+          FIX_PYTHON_RUFF: true
+          FIX_SQLFLUFF: true
+          FIX_TYPESCRIPT_PRETTIER: true
           FIX_YAML_PRETTIER: true
 
       - name: Commit and push linting fixes
