@@ -29,6 +29,7 @@ jobs:
 
           VALIDATE_CHECKOV: false
           FIX_MARKDOWN_PRETTIER: true
+          FIX_JAVASCRIPT_PRETTIER: true
           FIX_YAML_PRETTIER: true
 
       - name: Commit and push linting fixes
