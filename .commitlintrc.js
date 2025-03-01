@@ -1,43 +1,7 @@
 module.exports = {
-    rules: {
-      "type-enum": [
-        2,
-        "always",
-        [
-          "feat","fix", "wip", "build", "refactor"
-        ],
-      ],
-      "type-case": [
-        2,
-        "always",
-        "lower-case"
-      ],
-      "type-empty": [
-        2,
-        "never"
-      ],
-      "type-max-length": [
-        2,
-        "always",
-        8
-      ],
-      "scope-case": [
-        2,
-        "always",
-        "lower-case"
-      ],
-      "subject-case": [
-        2,
-        "always",
-        "lower-case"
-      ],
-      "subject-empty": [
-        2,
-        "never"
-      ],
-      "subject-max-length": [2,
-        "always",
-        60
-      ],
-    },
+	extends: ["@commitlint/config-conventional"],
+	helpUrl: "https://www.conventionalcommits.org/",
+	// We need this until https://github.com/dependabot/dependabot-core/issues/2445
+	// is resolved.
+	ignores: [(msg) => /Signed-off-by: dependabot\[bot]/m.test(msg)],
   };
