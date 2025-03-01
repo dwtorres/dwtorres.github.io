@@ -35,7 +35,6 @@ jobs:
           FIX_JSON_PRETTIER: true
           FIX_PYTHON_RUFF: true
           FIX_SQLFLUFF: true
-          FIX_TYPESCRIPT_PRETTIER: true
           FIX_YAML_PRETTIER: true
 
       - name: Commit and push linting fixes
