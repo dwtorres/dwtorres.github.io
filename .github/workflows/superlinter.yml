@@ -38,6 +38,8 @@ jobs:
           FIX_SQLFLUFF: true
           FIX_YAML_PRETTIER: true
 
+          FILTER_REGEX_INCLUDE: ^docs/
+
       - name: Commit and push linting fixes
         # Run only on:
         # - Pull requests
