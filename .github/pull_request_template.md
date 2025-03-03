@@ -9,18 +9,6 @@ Provide a short summary in the Title above. Examples of good PR titles:
 
 Describe the big picture of your changes here to communicate to the maintainers. If it fixes a bug or resolves a feature request, please provide a link to that issue.
 
-## Types of changes
-
-What types of changes does your code introduce into the repo?
-_Put an `x` in the boxes that apply_
-
-- [ ] Bugfix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Code style update (formatting, renaming)
-- [ ] Refactoring (no functional changes, no API changes)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Documentation Update (if none of the other choices apply)
-
 ## Checklist:
 <!---
 This checklist is mostly useful as a reminder of small things that can easily be
