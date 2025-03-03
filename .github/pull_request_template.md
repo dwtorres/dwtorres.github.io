@@ -1,3 +1,4 @@
+# Title
 <!---
 Provide a short summary in the Title above. Examples of good PR titles:
 * "Feature: add so-and-so models"
@@ -6,10 +7,11 @@ Provide a short summary in the Title above. Examples of good PR titles:
 -->
 
 ## Proposed changes
-
+<!---
 Describe the big picture of your changes here to communicate to the maintainers. If it fixes a bug or resolves a feature request, please provide a link to that issue.
+-->
 
-## Checklist:
+## Checklist
 <!---
 This checklist is mostly useful as a reminder of small things that can easily be
 forgotten – it is meant as a helpful tool rather than hoops to jump through.
