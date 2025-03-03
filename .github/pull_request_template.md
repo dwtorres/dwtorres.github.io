@@ -8,7 +8,11 @@ Provide a short summary in the Title above. Examples of good PR titles:
 
 ## Proposed changes
 <!---
-Describe the big picture of your changes here to communicate to the maintainers. If it fixes a bug or resolves a feature request, please provide a link to that issue.
+Describe the big picture of your changes here to communicate to the
+maintainers.
+
+If it fixes a bug or resolves a feature request, please provide a link
+to that issue.
 -->
 
 ## Checklist
