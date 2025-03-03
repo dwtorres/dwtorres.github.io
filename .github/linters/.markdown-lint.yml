@@ -1,19 +1,12 @@
----
-###########################
-###########################
-## Markdown Linter rules ##
-###########################
-###########################
+{
+  "comment": "Relaxed rules",
 
-# Linter rules doc:
-# - https://github.com/DavidAnson/markdownlint
-#
-# Note:
-# To comment out a single error:
-#   <!-- markdownlint-disable -->
-#   any violations you want
-#   <!-- markdownlint-restore -->
-#
-
----
-extends: "markdownlint/style/prettier"
+  "default": true,
+  "whitespace": false,
+  "line-length": false,
+  "ul-indent": false,
+  "no-inline-html": false,
+  "no-bare-urls": false,
+  "fenced-code-language": false,
+  "first-line-h1": false,
+}
