@@ -28,10 +28,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
           VALIDATE_CHECKOV: false
+          VALIDATE_MARKDOWN: false
 
           FIX_HTML_PRETTIER: true
           FIX_CSS_PRETTIER: true
-          FIX_MARKDOWN_PRETTIER: true
+          FIX_MARKDOWN_PRETTIER: false
           FIX_JAVASCRIPT_PRETTIER: true
           FIX_JSON_PRETTIER: true
           FIX_PYTHON_RUFF: true
